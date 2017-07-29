@@ -1,0 +1,22 @@
+{
+  "name": "egan.family",
+  "version": "1.0.0",
+  "description": "Wedding website",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^3.0.1-beta.20",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-spark-scroll-gsap": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
