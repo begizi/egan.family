@@ -26,6 +26,14 @@ export default () => (
         justify-content: space-around;
         align-items: center;
         z-index: 2;
+        flex: 1;
+        flex-wrap: wrap;
+      }
+      @media only screen
+        and (max-device-width: 667px) {
+        .links {
+          padding: 0;
+        }
       }
     `}</style>
     <style jsx global>{`

@@ -27,7 +27,11 @@ export default ({title, subTitle, href}) => (
           font-size: .8em;
         }
         h2 {
+          display: none;
           font-size: .6em;
+        }
+        a {
+          padding: 10px 5px;
         }
       }
     `}</style>
