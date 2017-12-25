@@ -15,9 +15,7 @@ export default () => (
     <div className="links">
       <Link title="Home" subTitle="wedding overview" href="#" />
       <Link title="About Us" subTitle="our story" href="#about" />
-      <Link title="Accommodations" subTitle="hotels" href="#accommodations" />
-      <Link title="Dinner" subTitle="location and time" href="#dinner" />
-      <Link title="Ceremony" subTitle="location" href="#ceremony" />
+      <Link title="Reception" subTitle="register for invitation" href="/reception" />
     </div>
     <style jsx>{`
     .links {
