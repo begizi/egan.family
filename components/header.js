@@ -13,8 +13,10 @@ export default () => (
     }}
   >
     <div className="links">
-      <Link title="Home" subTitle="wedding overview" href="#" />
       <Link title="About Us" subTitle="our story" href="#about" />
+      <Link title="Ceremony" subTitle="our pictures" href="#images" />
+      <Link title="Hotels" subTitle="accommodations" href="#accommodations" />
+      <Link title="Registry" subTitle="our honeymoon" href="#registry" />
       <Link title="Reception" subTitle="register for invitation" href="/reception" />
     </div>
     <style jsx>{`

@@ -10,9 +10,15 @@ export default ({children}) => (
       bannerBottom: {top: -150}
     }}
   >
-    {children}
+    <div className="date-wrapper">
+      <div className="date-month">July</div>
+      <div className="date-day">7</div>
+    </div>
     <style jsx global>{`
       .banner-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         height: 85vh;
         background: url('/static/banner.jpg');
@@ -29,6 +35,25 @@ export default ({children}) => (
         top: 0;
         left: 0;
         z-index: 1;
+      }
+      .date-wrapper {
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border: 20px solid white;
+        color: white;
+        font-family: Lucida Sans, Arial;
+      }
+
+      .date-month {
+        font-size: 62px;
+        line-height: 1.6em;
+      }
+
+      .date-day {
+        font-size: 240px;
+        line-height: .8em;
+        font-weight: bold;
       }
     `}</style>
   </SparkScroll.div>
