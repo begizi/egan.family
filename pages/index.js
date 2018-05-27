@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import About from '../pages/about';
-import Hotels from '../pages/hotels';
 import Banner from '../components/banner';
+import Faqs from '../pages/faq';
 import Header from '../components/header';
+import Hotels from '../pages/hotels';
 import ImageGallery from '../pages/gallery';
+import Timeline from '../pages/timeline';
 import images from '../helpers/images';
 
 export default () => (
@@ -24,16 +26,16 @@ export default () => (
         <About />
       </section>
 
-      <section id="images" className="images">
-        <p>Pictures:</p>
-        <h1>The Ceremony</h1>
-        <ImageGallery images={images} />
-      </section>
-
       <section id="accommodations" className="accommodations">
         <p>Accommodations:</p>
         <h1>Hotels</h1>
         <Hotels />
+      </section>
+
+      <section id="timeline" className="timeline">
+        <p>Reception Information</p>
+        <h1>Timeline</h1>
+        <Timeline />
       </section>
 
       <section id="registry" className="registry">
@@ -46,13 +48,36 @@ export default () => (
         </div>
         <script async src="https://widget.zola.com/js/widget.js" />
       </section>
+
+      <section id="faqs" className="faqs">
+        <p>Questions and Answers</p>
+        <h1>FAQs</h1>
+        <Faqs />
+      </section>
+
+      <section id="images" className="images">
+        <p>Pictures:</p>
+        <h1>The Ceremony</h1>
+        <ImageGallery images={images} />
+      </section>
+
     </div>
 
     <style jsx global>{`
-    html, body {
+      html, body {
         height: 100%
       }
 
+      @media only screen
+        and (max-device-width: 667px) {
+        .about h1 {
+          font-size: 2em;
+        }
+
+        .sub-right .right {
+          text-align: left;
+        }
+      }
       body {
         margin: 0;
         padding: 0;

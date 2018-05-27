@@ -13,6 +13,7 @@ export default ({title, subTitle, href}) => (
         font-size: 1.2em;
         font-weight: 300;
         font-family: 'Lora', serif;
+        text-decoration: underline;
       }
       h2 {
         font-size: 1em;

@@ -14,10 +14,11 @@ export default () => (
   >
     <div className="links">
       <Link title="About Us" subTitle="our story" href="#about" />
-      <Link title="Ceremony" subTitle="our pictures" href="#images" />
       <Link title="Hotels" subTitle="accommodations" href="#accommodations" />
+      <Link title="Timeline" subTitle="reception information" href="#timeline" />
       <Link title="Registry" subTitle="our honeymoon" href="#registry" />
-      <Link title="Reception" subTitle="register for invitation" href="/reception" />
+      <Link title="FAQs" subTitle="questions" href="#faqs" />
+      <Link title="Ceremony" subTitle="our pictures" href="#images" />
     </div>
     <style jsx>{`
     .links {
