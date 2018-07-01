@@ -27,7 +27,8 @@ export default () => (
       <h2>Brunch</h2>
       <p>Brunch will be hosted by Paula and Glen McClean. Come and go as you please!</p>
       <h3>Location</h3>
-      <p className="location">20688 Overton Pl Bend, OR 97701</p>
+      <p>Bend Senior Center</p>
+      <p className="location">1600 Southeast Reed Market Road, Bend, OR</p>
       <h4>Time</h4>
       <p>10:00am-2:00pm</p>
     </div>
